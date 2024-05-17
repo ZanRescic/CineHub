@@ -18,7 +18,7 @@ public class ApplicationContext : IdentityDbContext<ApplicationUser>
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-        modelBuilder.Entity<Dvorana>().ToTable("Student");
+        modelBuilder.Entity<Dvorana>().ToTable("Dvorana");
         modelBuilder.Entity<Film>().ToTable("Film");
         modelBuilder.Entity<TerminFilma>().ToTable("TerminFilma");
         modelBuilder.Entity<Sedez>().ToTable("Sedez");

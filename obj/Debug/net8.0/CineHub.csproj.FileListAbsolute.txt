@@ -254,3 +254,4 @@ D:\Faks-Zan\2. LETNIK\2. SEMESTER\RIS\SeminarskaNaloga\CineHub\bin\Debug\net8.0\
 D:\Faks-Zan\2. LETNIK\2. SEMESTER\RIS\SeminarskaNaloga\CineHub\obj\Debug\net8.0\CineHub.csproj.AssemblyReference.cache
 D:\Faks-Zan\2. LETNIK\2. SEMESTER\RIS\SeminarskaNaloga\CineHub\obj\Debug\net8.0\CineHub.MvcApplicationPartsAssemblyInfo.cs
 D:\Faks-Zan\2. LETNIK\2. SEMESTER\RIS\SeminarskaNaloga\CineHub\obj\Debug\net8.0\CineHub.csproj.CopyComplete
+D:\Faks-Zan\2. LETNIK\2. SEMESTER\RIS\SeminarskaNaloga\CineHub\obj\Debug\net8.0\CineHub.sourcelink.json

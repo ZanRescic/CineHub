@@ -1,0 +1,45 @@
+@model CineHub.Models.TerminFilma
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>TerminFilma</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="datumUra" class="control-label"></label>
+                <input asp-for="datumUra" class="form-control" />
+                <span asp-validation-for="datumUra" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="kapaciteta" class="control-label"></label>
+                <input asp-for="kapaciteta" class="form-control" />
+                <span asp-validation-for="kapaciteta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="filmId" class="control-label"></label>
+                <input asp-for="filmId" class="form-control" />
+                <span asp-validation-for="filmId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dvoranaId" class="control-label"></label>
+                <input asp-for="dvoranaId" class="form-control" />
+                <span asp-validation-for="dvoranaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

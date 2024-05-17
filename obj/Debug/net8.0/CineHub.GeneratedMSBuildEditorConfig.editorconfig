@@ -18,6 +18,78 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Faks-Zan\2. LETNIK\2. SEMESTER\RIS\SeminarskaNaloga\CineHub
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Dvorana/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHZvcmFuYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Dvorana/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHZvcmFuYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Dvorana/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHZvcmFuYVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Dvorana/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHZvcmFuYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Dvorana/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHZvcmFuYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Film/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Film/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Film/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Film/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Film/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,12 +98,76 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Sedez/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VkZXpcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Sedez/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VkZXpcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Sedez/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VkZXpcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Sedez/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VkZXpcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Sedez/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VkZXpcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/TerminFilma/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybWluRmlsbWFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/TerminFilma/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybWluRmlsbWFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/TerminFilma/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybWluRmlsbWFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/TerminFilma/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybWluRmlsbWFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/TerminFilma/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybWluRmlsbWFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Vstopnica/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnN0b3BuaWNhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Vstopnica/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnN0b3BuaWNhXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Vstopnica/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnN0b3BuaWNhXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Vstopnica/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnN0b3BuaWNhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/Vstopnica/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnN0b3BuaWNhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Faks-Zan/2. LETNIK/2. SEMESTER/RIS/SeminarskaNaloga/CineHub/Views/_ViewImports.cshtml]

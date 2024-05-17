@@ -1,0 +1,47 @@
+@model IEnumerable<CineHub.Models.Sedez>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.vrsta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.stevilka)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dvoranaId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.vrsta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stevilka)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dvoranaId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
