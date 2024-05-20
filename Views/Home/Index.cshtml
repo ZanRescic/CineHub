@@ -1,8 +1,18 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+<style>
+    p {
+        color: black;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 100;
+    }
+    a{
+        text-decoration: none;
+    }
+</style>
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">CineHub</h1>
+    <p>Dobrodošli na spletni strani CineHub.<br>Stran prikazuje vse trenutno predvajane <a asp-controller="Film" asp-action="Index">filme</a> v naši kinodvorani.</p>
 </div>
