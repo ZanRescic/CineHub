@@ -3,6 +3,11 @@
 @{
     ViewData["Title"] = "Index";
 }
+<style>
+    a{
+        text-decoration: none;
+    }
+</style>
 
 <h1>Filmi</h1>
 <table class="table">
@@ -23,7 +28,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.ocena)
             </th>
-            <th></th>
+            <th>
+
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -43,6 +50,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ocena)
+            </td>
+            <td>
+                <a asp-action="Index" asp-controller="TerminFilma" asp-route-id="@item.id">Izberi termin</a>
             </td>
         </tr>
 }

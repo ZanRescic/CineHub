@@ -20,9 +20,17 @@ namespace CineHub.Controllers
         }
 
         // GET: TerminFilma
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? id)
         {
-            return View(await _context.TerminiFilma.ToListAsync());
+            if (id == null){
+                return NotFound();
+            }
+            var terminiFilma = from t in _context.TerminiFilma
+                        select t;
+                if(terminiFilma != null){
+                    terminiFilma = terminiFilma.Where(s => s.filmId == id);
+                }
+            return View(await terminiFilma.ToListAsync());
         }
 
         // GET: TerminFilma/Details/5

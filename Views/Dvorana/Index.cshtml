@@ -5,9 +5,13 @@
 }
 
 <h1>Dvorane</h1>
+
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ime)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.tipDvorane)
             </th>
@@ -20,6 +24,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ime)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.tipDvorane)
             </td>

@@ -7,22 +7,35 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CineHub.Data;
 using CineHub.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace CineHub.Controllers
 {
+    [Authorize]
     public class VstopnicaController : Controller
     {
         private readonly ApplicationContext _context;
+        private readonly UserManager<ApplicationUser> _usermanager;
 
-        public VstopnicaController(ApplicationContext context)
+        public VstopnicaController(ApplicationContext context, UserManager<ApplicationUser> userManager)
         {
             _context = context;
+            _usermanager = userManager;
         }
 
         // GET: Vstopnica
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Vstopnice.ToListAsync());
+            var currentUser = await _usermanager.GetUserAsync(User);
+            var tickets = from t in _context.Vstopnice
+                        select t;
+            if(currentUser != null){
+                tickets = tickets.Where(s => s.UserId.Equals(currentUser));
+            } else {
+                tickets = tickets.Where(s => s.terminFilmaId == -1);
+            }
+            return View(await tickets.ToListAsync());
         }
 
         // GET: Vstopnica/Details/5
@@ -44,9 +57,11 @@ namespace CineHub.Controllers
         }
 
         // GET: Vstopnica/Create
-        public IActionResult Create()
+        public IActionResult Create(int id)
         {
-            return View();
+            Vstopnica vstopnica = new Vstopnica();
+            vstopnica.terminFilmaId = id;
+            return View(vstopnica);
         }
 
         // POST: Vstopnica/Create
@@ -54,10 +69,18 @@ namespace CineHub.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id,stVstopnic,kupljena,terminFilmaId")] Vstopnica vstopnica)
+        public async Task<IActionResult> Create([Bind("stVstopnic,kupljena,terminFilmaId")] Vstopnica vstopnica)
         {
+            var currentUser = await _usermanager.GetUserAsync(User);
             if (ModelState.IsValid)
             {
+                var terminFilmaId = vstopnica.terminFilmaId;
+                var eventToUpdate = _context.TerminiFilma.FirstOrDefault(e => e.id == terminFilmaId);
+                if (eventToUpdate != null)
+                {
+                    eventToUpdate.kapaciteta -= vstopnica.stVstopnic;
+                }
+                vstopnica.UserId = currentUser;
                 _context.Add(vstopnica);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -142,6 +165,12 @@ namespace CineHub.Controllers
             var vstopnica = await _context.Vstopnice.FindAsync(id);
             if (vstopnica != null)
             {
+                var terminFilmaId = vstopnica.terminFilmaId;
+                var eventToUpdate = _context.TerminiFilma.FirstOrDefault(e => e.id == terminFilmaId);
+                if (eventToUpdate != null)
+                {
+                    eventToUpdate.kapaciteta += vstopnica.stVstopnic;
+                }
                 _context.Vstopnice.Remove(vstopnica);
             }
 

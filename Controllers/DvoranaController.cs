@@ -54,7 +54,7 @@ namespace CineHub.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id,tipDvorane,kapaciteta")] Dvorana dvorana)
+        public async Task<IActionResult> Create([Bind("id,ime,tipDvorane,kapaciteta")] Dvorana dvorana)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace CineHub.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id,tipDvorane,kapaciteta")] Dvorana dvorana)
+        public async Task<IActionResult> Edit(int id, [Bind("id,ime,tipDvorane,kapaciteta")] Dvorana dvorana)
         {
             if (id != dvorana.id)
             {

@@ -3,12 +3,13 @@
 @{
     ViewData["Title"] = "Index";
 }
+<style>
+    a{
+        text-decoration: none;
+    }
+</style>
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<h1>Termini</h1>
 <table class="table">
     <thead>
         <tr>
@@ -19,10 +20,7 @@
                 @Html.DisplayNameFor(model => model.kapaciteta)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.filmId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.dvoranaId)
+                dvorana
             </th>
             <th></th>
         </tr>
@@ -37,17 +35,15 @@
                 @Html.DisplayFor(modelItem => item.kapaciteta)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.filmId)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.dvoranaId)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                <a asp-action="Create" asp-controller="Vstopnica" asp-route-id="@item.id">Nakup Vstopnic</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+<div>
+    <a asp-action="Index" asp-controller="Film">Nazaj na filme</a>
+</div>
